@@ -115,6 +115,8 @@ Then update mid=minheap.top()+maxheap.top() / 2.
 
 Note: <b>Use double for storing elements as result median may be average of elemnts</b>
 
+<b> Time Complexity: It is same as heap operations i.e.., O(nlogn)</b>
+
 Below is implementation of above logic in c++:
 
 ## Code:

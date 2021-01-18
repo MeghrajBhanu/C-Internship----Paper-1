@@ -36,13 +36,11 @@ Explanation:
     int arr[6];  //array to store elements
     int n=6;
     int f=0,u=0;
-    while(1)
-    {
+    while(1){
         int i=scanf("%d",&f);
         if(i!=1)break;
         arr[u]=f;
         u++;
-        
     }
     int length=sizeof(arr)/sizeof(arr[0]);  //length of array ...arr
     int a=INT_MAX,b=INT_MAX; //to strore first and second smallest elements

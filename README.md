@@ -1,8 +1,12 @@
 
 C++ Internship -- Paper 1
    
-   
-   
+## Table of contents
+*Question 1
+*Question 2
+  
+## Question 1
+
 Q1- Find the smallest and second smallest elements in an array.
 
 Explanation- Write an efficient C program to find smallest and second smallest element in an array
@@ -14,7 +18,7 @@ Output: The smallest element is 1 and
 second Smallest element is 10
   
 
-Explanation:
+## Explanation:
  
  A naive approach for the above problem would be to Traverse the array and find the first smallest element,let it be x.Now we need to scan the array once again and find the minimum element which is greater than the first element.So basically,we traverse the array twice which will return the answer in O(n) time.
  Time Complexity= O(n)+O(n)= 2(O(n)) (as we are traversing the array twice)
@@ -29,8 +33,8 @@ Explanation:
  Interesting case: Their may not be any second smallest element in case of duplicate elements(such as all the elemnts in the array may be same).
  Below is the implementation of above approach in C:
  
-  
- 
+'''
+
  #include<stdio.h>   //standard input output
  #include<limits.h>  //header file for INT_MAX
  int main(){
@@ -64,8 +68,11 @@ Explanation:
         }
     return 0;
   }
-       
-       
+  
+'''
        
       
             
+
+
+

@@ -96,13 +96,22 @@ Using two heaps (max(lower half) and min heap(upper half))implemented with prior
 We try to balance the heap sizes while reading the element.If it is balanced then median is average of top elements of heaps.
 If unbalanced median is top element of greater heap
 ```
-
+<pre>
 Intializing a variable mid=0 as initial value of median.
+
 Read the element 
+
 case 1:
 If length(maxheap)==length(minheap) Then, If the element < mid then insert it to the max heap and update mid =maxheap.top(). If the element>mid then insert it to minheap and mid =minheap.top()
-case 2: If length(maxheap)<length(minheap) and the element > mid then pop minheap.top() insert it into  maxheap and insert the element to minheap else insert the element to the max heap. Update mid = minheap.top()+maxheap.top() / 2.
-case 3: If length(maxheap)>length(minheap) and element<mid then pop the maxheap.top() ,insert it into minheap and insert the element to max heap or else insert the element to minheap. Then update mid=minheap.top()+maxheap.top() / 2.
+
+case 2:
+If length(maxheap)<length(minheap) and the element > mid then pop minheap.top() insert it into  maxheap and insert the element to minheap else insert the element to the max heap.
+Update mid = minheap.top()+maxheap.top() / 2.
+
+case 3: 
+If length(maxheap)>length(minheap) and element<mid then pop the maxheap.top() ,insert it into minheap and insert the element to max heap or else insert the element to minheap. 
+Then update mid=minheap.top()+maxheap.top() / 2.
+</pre>
 
 Note: <b>Use double for storing elements as result median may be average of elemnts</b>
 

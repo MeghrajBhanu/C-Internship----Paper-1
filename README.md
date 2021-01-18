@@ -28,7 +28,7 @@ Explanation:
  base case: array size should be greater than or equal to two.
  Interesting case: Their may not be any second smallest element in case of duplicate elements(such as all the elemnts in the array may be same).
  Below is the implementation of above approach in C:
- <Code>
+ 
    
  #include<stdio.h>   //standard input output
  #include<limits.h>  //header file for INT_MAX
